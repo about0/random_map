@@ -1,0 +1,1545 @@
+dl dd,
+fieldset,
+ol,
+p,
+table,
+ul {
+    margin: 0
+}
+
+a,
+body {
+    color: #02141F
+}
+
+.Brightcove li,
+ol,
+ul {
+    list-style-type: none
+}
+
+.BodyNodes,
+.Footer,
+.InlineNewsletter-input,
+.InlineNewsletter-list {
+    overflow: hidden
+}
+
+.Newsy--inline:after,
+.article-share-buttons:after,
+.footer-ad-lazy-container .lazy-load:empty,
+.sidebar:after,
+.stickynav:after,
+main>section:after {
+    clear: both
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #02141F;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: background-color 150ms ease;
+    transition: background-color 150ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+button:focus,
+button:hover,
+input[type=button]:focus,
+input[type=button]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+input[type=submit]:focus,
+input[type=submit]:hover {
+    background-color: #021019;
+    color: #fff
+}
+
+button:disabled,
+input[type=button]:disabled,
+input[type=reset]:disabled,
+input[type=submit]:disabled {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+button:disabled:hover,
+input[type=button]:disabled:hover,
+input[type=reset]:disabled:hover,
+input[type=submit]:disabled:hover {
+    background-color: #02141F
+}
+
+@font-face {
+    font-family: ScoutBold;
+    src: url(http://static-cdn.thedailybeast.com/fonts/Scout-Bold.40448ec0c6.cached.woff2) format("woff2"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Bold.b46ec3a8c3.cached.woff) format("woff"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Bold.e880dfed30.cached.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: ScoutCondensedBold;
+    src: url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Bold.6f0ce1890d.cached.woff2) format("woff2"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Bold.3d39da0ef0.cached.woff) format("woff"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Bold.b6d402a52d.cached.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: ScoutCondensedRegular;
+    src: url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Regular.00e57ddf4c.cached.woff2) format("woff2"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Regular.d234ff8bc0.cached.woff) format("woff"), url(http://static-cdn.thedailybeast.com/fonts/Scout-Condensed-Regular.0688f8eddd.cached.ttf) format("truetype")
+}
+
+fieldset {
+    background-color: #fcfcfc;
+    border: 1px solid #F4F4F4;
+    padding: 0
+}
+
+input,
+label,
+select {
+    display: block;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 18px
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 0
+}
+
+label.required::after {
+    content: "*"
+}
+
+label abbr {
+    display: none
+}
+
+input:not([type]),
+input[type=color],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select[multiple=multiple],
+textarea {
+    background-color: #fff;
+    border: 1px solid #F4F4F4;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .06);
+    box-sizing: border-box;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding: 0;
+    -webkit-transition: border-color 150ms ease;
+    transition: border-color 150ms ease;
+    width: 100%
+}
+
+input:not([type]):hover,
+input[type=color]:hover,
+input[type=date]:hover,
+input[type=datetime]:hover,
+input[type=datetime-local]:hover,
+input[type=email]:hover,
+input[type=month]:hover,
+input[type=number]:hover,
+input[type=password]:hover,
+input[type=search]:hover,
+input[type=tel]:hover,
+input[type=text]:hover,
+input[type=time]:hover,
+input[type=url]:hover,
+input[type=week]:hover,
+select[multiple=multiple]:hover,
+textarea:hover {
+    border-color: #c3c3c3
+}
+
+input:not([type]):focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select[multiple=multiple]:focus,
+textarea:focus {
+    border-color: #02141F;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .06), 0 0 5px rgba(0, 5, 7, .7);
+    outline: 0
+}
+
+hr,
+td {
+    border-bottom: 1px solid #F4F4F4
+}
+
+input:not([type]):disabled,
+input[type=color]:disabled,
+input[type=date]:disabled,
+input[type=datetime]:disabled,
+input[type=datetime-local]:disabled,
+input[type=email]:disabled,
+input[type=month]:disabled,
+input[type=number]:disabled,
+input[type=password]:disabled,
+input[type=search]:disabled,
+input[type=tel]:disabled,
+input[type=text]:disabled,
+input[type=time]:disabled,
+input[type=url]:disabled,
+input[type=week]:disabled,
+select[multiple=multiple]:disabled,
+textarea:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed
+}
+
+.VideoPreview,
+.rtl-items a,
+.share-icon a {
+    cursor: pointer
+}
+
+input:not([type]):disabled:hover,
+input[type=color]:disabled:hover,
+input[type=date]:disabled:hover,
+input[type=datetime]:disabled:hover,
+input[type=datetime-local]:disabled:hover,
+input[type=email]:disabled:hover,
+input[type=month]:disabled:hover,
+input[type=number]:disabled:hover,
+input[type=password]:disabled:hover,
+input[type=search]:disabled:hover,
+input[type=tel]:disabled:hover,
+input[type=text]:disabled:hover,
+input[type=time]:disabled:hover,
+input[type=url]:disabled:hover,
+input[type=week]:disabled:hover,
+select[multiple=multiple]:disabled:hover,
+textarea:disabled:hover {
+    border: 1px solid #F4F4F4
+}
+
+textarea {
+    resize: vertical
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline;
+    margin-right: 0
+}
+
+input[type=checkbox]+label,
+input[type=radio]+label {
+    display: inline-block
+}
+
+input[type=file] {
+    margin-bottom: 0;
+    width: 100%
+}
+
+select {
+    margin-bottom: 0;
+    max-width: 100%;
+    width: auto
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0
+}
+
+iframe,
+img {
+    border: 0
+}
+
+ol,
+ul {
+    padding: 0
+}
+
+dl {
+    margin-bottom: 0
+}
+
+dl dt {
+    font-weight: 700;
+    margin-top: 0
+}
+
+table {
+    border-collapse: collapse;
+    -webkit-font-feature-settings: "kern", "liga", "tnum";
+    font-feature-settings: "kern", "liga", "tnum";
+    table-layout: fixed;
+    width: 100%
+}
+
+th {
+    border-bottom: 1px solid #b7b7b7;
+    font-weight: 600;
+    padding: 0;
+    text-align: left
+}
+
+td {
+    padding: 0
+}
+
+td,
+th,
+tr {
+    vertical-align: middle
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    -webkit-font-feature-settings: "kern", "liga", "pnum";
+    font-feature-settings: "kern", "liga", "pnum";
+    font-size: 10;
+    line-height: 0
+}
+
+h1,
+h2,
+h3 {
+    font-family: ScoutCondensedBold, "Arial Narrow", Arial, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    letter-spacing: .5px;
+    font-weight: 400
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 50px
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 22px
+}
+
+h4 {
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase
+}
+
+p,
+p.large {
+    line-height: 30px
+}
+
+p.large {
+    font-family: ScoutCondensedRegular, "Arial Narrow", Arial, sans-serif;
+    font-size: 28px;
+    letter-spacing: .5px;
+    margin-bottom: 22px
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: color 150ms ease;
+    transition: color 150ms ease
+}
+
+.BodyNodes a,
+.Dek a {
+    text-decoration: underline
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #020f17
+}
+
+hr {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0
+}
+
+figure,
+img,
+picture {
+    margin: 0;
+    max-width: 100%
+}
+
+.wrapper.text {
+    margin-bottom: 18px
+}
+
+.stickynav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101
+}
+
+.stickynav-container>hr {
+    border-color: #D9D9DD;
+    bottom: 1px;
+    position: relative
+}
+
+.stickynav {
+    margin: 0 auto;
+    width: 1070px;
+    background-color: #FFF
+}
+
+.stickynav:after,
+.stickynav:before {
+    content: "";
+    display: table
+}
+
+.stickynav a.logo {
+    float: left;
+    background: url(http://static-cdn.thedailybeast.com/images/logo-24d42e3d2f.svg) no-repeat;
+    height: 50px;
+    width: 50px
+}
+
+.stickynav ul.links {
+    float: left
+}
+
+.stickynav ul.links li {
+    float: left;
+    margin: 0 0 0 5px;
+    padding: 0 10px
+}
+
+.stickynav ul.links li a {
+    display: inline-block;
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+    text-transform: uppercase
+}
+
+.stickynav ul.links li a.sponsored {
+    color: #6182C2
+}
+
+.stickynav ul.links li:hover {
+    background-color: #D9D9DD
+}
+
+.stickynav ul.links li:first-child {
+    margin-left: 15px
+}
+
+.stickynav ul.search-social li {
+    float: right;
+    margin: 10px 0 0;
+    height: 40px;
+    width: 40px
+}
+
+.stickynav ul.search-social li a {
+    margin: 0;
+    display: block;
+    float: right
+}
+
+.stickynav ul.search-social li a.search {
+    background: url(http://static-cdn.thedailybeast.com/images/search-06d54f0397.svg) no-repeat;
+    height: 25px;
+    width: 25px
+}
+
+.stickynav ul.search-social li a.facebook {
+    background: url(http://static-cdn.thedailybeast.com/images/facebook-64323a3eb1.svg) no-repeat;
+    height: 25px;
+    width: 25px
+}
+
+.stickynav ul.search-social li a.twitter {
+    background: url(http://static-cdn.thedailybeast.com/images/twitter-18a23ac59c.svg) no-repeat;
+    height: 25px;
+    width: 25px
+}
+
+.content {
+    float: left
+}
+
+.hero {
+    min-height: 462.5px
+}
+
+.article-body {
+    float: left;
+    width: 635px;
+    margin-top: 45px
+}
+
+.article-body h1 {
+    margin-bottom: 24px
+}
+
+.article-body-header {
+    padding: 0 0 5px
+}
+
+.rubric {
+    color: #F00606;
+    display: inline;
+    padding-right: 10px
+}
+
+.sponsor .rubric {
+    color: #6182C2
+}
+
+.partner-content,
+.sponsor-content {
+    color: #6182C2;
+    display: inline;
+    padding-right: 10px
+}
+
+.date-time {
+    color: #A7AFB3;
+    display: inline
+}
+
+.dek {
+    color: #A7AFB3
+}
+
+.article-share-buttons {
+    margin-top: 41px
+}
+
+.article-share-buttons:after,
+.article-share-buttons:before {
+    content: "";
+    display: table
+}
+
+.rail {
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 75px;
+    padding-right: 30px;
+    text-align: center;
+    width: 75px
+}
+
+.rail .authors .written-by {
+    color: #A7AFB3;
+    margin: 0 0 20px
+}
+
+.rail .authors .author .author-name h4 {
+    color: #A7AFB3;
+    margin: 5px 0 0
+}
+
+.rail .authors .author .author-twitter {
+    display: block;
+    background: url(http://static-cdn.thedailybeast.com/images/twittird-f5e6dec8ac.svg) no-repeat;
+    height: 35px;
+    width: 35px;
+    margin: 0 auto 20px
+}
+
+.rail .authors .author:last-child {
+    margin-bottom: 100px
+}
+
+.rail .authors .author:last-child .author-twitter {
+    margin-bottom: 0
+}
+
+.rail .author-photo {
+    display: block;
+    min-height: 75px
+}
+
+.partner-disclaimer {
+    background: #F4F4F4;
+    color: #A7AFB3;
+    margin-bottom: 35px;
+    padding: 35px;
+    text-align: center;
+    clear: both
+}
+
+.partner-disclaimer h4 {
+    margin-bottom: 0
+}
+
+.sidebar {
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 300px
+}
+
+.sidebar:after,
+.sidebar:before {
+    content: "";
+    display: table
+}
+
+.sidebar .rtl-list {
+    background-color: #02141F;
+    padding: 0 0 20px;
+    margin-bottom: 30px
+}
+
+.sidebar .rtl-list .rtl-header {
+    color: #FFF;
+    margin: 0;
+    padding: 4px 0 6px;
+    text-align: center
+}
+
+.sidebar .rtl-list .rtl-header .regular {
+    font-family: ScoutCondensedRegular, "Arial Narrow", Arial, sans-serif
+}
+
+.sidebar .rtl-list .rtl-item {
+    background-color: #FFF;
+    border-bottom: 1px solid #D9D9DD;
+    height: 62px;
+    position: relative
+}
+
+.rtl-items a:last-child .rtl-item,
+.rtl-items>a:last-child .sidebar .rtl-list .rtl-item {
+    border: none
+}
+
+.sidebar .rtl-list .rtl-item h3,
+.sidebar .rtl-list .rtl-item h4 {
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 260px;
+    overflow: hidden
+}
+
+.sidebar .rtl-list .rtl-item h3 {
+    margin: 0
+}
+
+.sidebar .rtl-list .rtl-item h4 {
+    color: #A7AFB3;
+    margin: 0;
+    text-transform: uppercase
+}
+
+.sidebar .rtl-list .rtl-item .rtl-item-index {
+    float: left;
+    position: relative;
+    margin: 11px 0 0 15px;
+    z-index: 10
+}
+
+.sidebar .rtl-list .rtl-item .rtl-article-info {
+    float: left;
+    position: relative;
+    margin-top: 11px;
+    padding-left: 10px;
+    z-index: 100
+}
+
+.sidebar .rtl-list .rtl-item .rtl-item-progress {
+    background-color: #F4F4F4;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0
+}
+
+.sidebar .rtl-list .rtl-item .rtl-item-current {
+    background-color: #F00606;
+    height: 100%;
+    position: absolute;
+    width: 5px;
+    z-index: 1
+}
+
+.sidebar .rtl-list .rtl-item.sponsored .rtl-item-title {
+    color: #6182C2
+}
+
+.wrapper.oembed,
+.wrapper.snippet {
+    padding-top: 8px;
+    margin-bottom: 28px;
+    text-align: center
+}
+
+.wrapper.oembed>iframe,
+.wrapper.snippet>iframe {
+    margin: 0 auto
+}
+
+.GoogleAd.header-ad {
+    text-align: center;
+    margin: 30px 0
+}
+
+.GoogleAd.body-ad {
+    float: left;
+    margin: 7px 35px 2px 0
+}
+
+.GoogleAd.footer-ad {
+    margin: 50px auto;
+    min-height: 90px
+}
+
+.GoogleAd.footer-ad>div>iframe {
+    display: block;
+    margin: 0 auto
+}
+
+.GoogleAd.sidebar-ad {
+    margin-bottom: 30px
+}
+
+.Pullquote.wrapper {
+    padding: 23px 0 42px
+}
+
+.Pullquote.wrapper .quote-icon {
+    height: 27px;
+    margin: 0 auto;
+    width: 27px;
+    background-repeat: no-repeat
+}
+
+.Pullquote.wrapper .quote-icon.start {
+    background-image: url(http://static-cdn.thedailybeast.com/images/quote-start-7af242775f.svg)
+}
+
+.Pullquote.wrapper .quote-icon.end {
+    background-image: url(http://static-cdn.thedailybeast.com/images/quote-end-dca04caa7c.svg)
+}
+
+.Pullquote.wrapper blockquote {
+    margin: 14px auto 16px;
+    width: 600px
+}
+
+.Pullquote.wrapper blockquote h2 {
+    margin: 0;
+    text-align: center
+}
+
+.ArticleFooter-outbrain {
+    min-height: 607px
+}
+
+.wrapper.inlineimage {
+    margin-bottom: 25px;
+    padding-top: 8px
+}
+
+.inlineimage {
+    text-align: center
+}
+
+.inlineimage h4 {
+    margin-bottom: 0;
+    text-transform: none
+}
+
+.inlineimage .caption {
+    margin-top: 7px;
+    color: #A7AFB3
+}
+
+.inlineimage figure {
+    display: inline-block
+}
+
+.Image-special {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.Image .image-credits-wrapper {
+    position: relative
+}
+
+.Image .image-credits-wrapper .image-credits-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    background: url(http://static-cdn.thedailybeast.com/images/photo-4fd9c40f9d.svg) no-repeat;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out
+}
+
+.Image .image-credits-wrapper .background-gradient {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAA57GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoV2luZG93cyk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTUtMDItMTlUMTQ6NDc6MjYrMDM6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNS0wMi0xOVQxNDo0ODoxNiswMzowMDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6TWV0YWRhdGFEYXRlPjIwMTUtMDItMTlUMTQ6NDg6MTYrMDM6MDA8L3htcDpNZXRhZGF0YURhdGU+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxwaG90b3Nob3A6Q29sb3JNb2RlPjM8L3Bob3Rvc2hvcDpDb2xvck1vZGU+CiAgICAgICAgIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6YWQ4NmQwZGYtZTE0Ny0zYTRlLTliNDUtZWQxZDNlNDdmMmZmPC94bXBNTTpJbnN0YW5jZUlEPgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6Mjk3MTljMjctYjgyZC0xMWU0LTllOTktYjRlMjBiZjQzZWY0PC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6NDBiYzZiMDgtODFjOC1lNDQ1LTk2ZGYtZmE3MmE2ZmMxOTFjPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpIaXN0b3J5PgogICAgICAgICAgICA8cmRmOlNlcT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y3JlYXRlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjQwYmM2YjA4LTgxYzgtZTQ0NS05NmRmLWZhNzJhNmZjMTkxYzwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxNS0wMi0xOVQxNDo0NzoyNiswMzowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDphZDg2ZDBkZi1lMTQ3LTNhNGUtOWI0NS1lZDFkM2U0N2YyZmY8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTUtMDItMTlUMTQ6NDg6MTYrMDM6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjAwMDAvMTAwMDA8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6UmVzb2x1dGlvblVuaXQ+MjwvdGlmZjpSZXNvbHV0aW9uVW5pdD4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT42NTUzNTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+NjA8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+NjA8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKPD94cGFja2V0IGVuZD0idyI/Phim3nwAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAA5BJREFUeNrsWtFu4zAMM738/x+fdS8rYAgUJadu02IJMKxrs860SIryCjNrf+nq7Y9dN+Ab8A34BnwDvgHfgK+78Pulrq+JYpXU2Bc2Be65r7yOYPEmwM+Pbfr+tYBtqrwHZMEGfA1oBhgB9c29NhxQfIPuZ8DmHjehWyP6N3KvfTJgps8MkN8AIxtmn0xpBSraBCTG91FUPwrtxgjlK+AeG2TJpn2ES/u2s6JLI7/LNsWuAtyTHuwr9WzouFTfR9KSWHVN0NtIIAF5vV0VWliFIUIHCCVNGBwCDV+m66PQjlQlGYCWAMKV9D6KNI4WPhxwkPsVrf099i5KZ0EjomoXRjeSNoagI9g7Kowi9VYW05OgMoKW+FLQ3rRUmmpCs00YnIn3NAH6Jb36IM4btRUjQLJFWdK3mYbfVmEjYyAKbvqgpwXzcbSJFY/YDn526Z7QCdMc7H/uwYyspikEjMna2vbgoUxrOEbMQCyYrTPXzvr+1kpn05IH8uPoG/Xd7p4fgWuvRM4toH2FTbQnm6jfyEARLfABdiQG5kH3ST4vO/EwkatVwlLBAw4AkuEj+/vb+3AUNOCqnE1N3VF5uOeGSFtNRFLbTekmevFIJp8INKt0dz9nIWQLaDUPg2i1F/voCACOQJ9vOxk5fp030pCahoZwUdVzW0Ldl/bigzjj/MY/wcDutRktKHNbIw5u4jACyd9bdulsQDeySNVfexI4EGi9Jd3htJbVIV4lXMy0H4XEpsyocm1zaVs4j/IDgzelqHrsXKx6+LfNzPpES/aF6XX/f+JOZDC/35zKmGx8R0DwOJLbtgq3gmn5zDwSXTZiXhYcGY1kPn+K4gfJx370g6Mx02APQgnEES+IsWXj6dOnISpasjbVxWyrgr8ChWRSykLOsoa702kjumUaBtGp1y/TKYqa7EUN46xpQQD3C+7iNWVOUXxdNaXTZhb954EFDSse0qnE1BLdV4yKUd/OAq7Ou9GiH8/9KzouSJ9uQbs6G1ZSSjP9ZH1xhbYZBVGQwmkdM2CdGBACk2rBPSguXpmQvULHPlm1ACDcPerTeVnVsciC6kcjbaXCEKCa0BVz8jPgKsCyDcAqpSMqQvRQLFKti2FAeUD1k0anTAvFN1KLylrXSkWrzl2mtAKwUlHVb7NWgoVqR+xYMi0IPbJQ0IsVVyNgRY/bP6bcE/erOO+ZRWXOauTEtHKKkl7/BwBmbqHpIGjmeQAAAABJRU5ErkJggg==) no-repeat;
+    background-size: 100% 100%;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out
+}
+
+.Image .image-credits-wrapper .image-credits-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    padding: 0 6px;
+    height: 27px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #FFF;
+    text-transform: none;
+    line-height: 27px;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out
+}
+
+.share-icon,
+.share-icon a {
+    line-height: 35px;
+    height: 35px
+}
+
+.Image .image-credits-wrapper.open .image-credits-icon {
+    opacity: 0
+}
+
+.Image .image-credits-wrapper.open .image-credits-text {
+    opacity: 1
+}
+
+.Image .image-credits-wrapper.open .background-gradient {
+    opacity: 0
+}
+
+.share-icon {
+    margin: 0 0 15px 15px;
+    padding: 0;
+    width: 35px
+}
+
+.share-icon a {
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%
+}
+
+.share-icon a .button-icon {
+    display: block;
+    float: left;
+    height: 35px;
+    width: 35px
+}
+
+.share-icon a .button-icon.facebook-icon {
+    background: url(http://static-cdn.thedailybeast.com/images/facebook-share-41ac9eed3a.svg) no-repeat
+}
+
+.share-icon a .button-icon.twitter-icon {
+    background: url(http://static-cdn.thedailybeast.com/images/twitter-share-c13e1f4351.svg) no-repeat
+}
+
+.share-icon a .button-icon.email-icon {
+    background: url(http://static-cdn.thedailybeast.com/images/email-share-ac7e362559.svg) no-repeat
+}
+
+.share-icon a .button-icon.reddit-icon {
+    background: url(http://static-cdn.thedailybeast.com/images/reddit-share-e99760b1ff.svg) no-repeat
+}
+
+.share-icon.inline {
+    float: left;
+    margin: 0 20px 0 0;
+    min-width: 35px;
+    width: auto
+}
+
+.share-icon.inline img {
+    height: 35px
+}
+
+.share-icon.inline span {
+    padding-left: 5px;
+    vertical-align: top
+}
+
+.Hero {
+    position: relative
+}
+
+.Hero--with-image {
+    min-height: 462.5px
+}
+
+.Hero--with-image img {
+    width: 100%
+}
+
+.Hero--with-video {
+    min-height: initial
+}
+
+.Hero--with-newsy .Hero__video-wrapper {
+    padding-bottom: 86%
+}
+
+.Hero__video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%
+}
+
+.Hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.Brightcove,
+.Video {
+    position: relative;
+    height: 100%
+}
+
+.Dek {
+    color: #a7afb3;
+    font-size: 28px;
+    font-family: ScoutCondensedRegular, "Arial Narrow", Arial, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin-bottom: 26px
+}
+
+.Footer-copyright,
+.Footer-list-item a,
+.VideoCaption p {
+    font-size: 13px;
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .5px
+}
+
+.Dek a {
+    color: inherit
+}
+
+.Dek a:active,
+.Dek a:focus,
+.Dek a:hover {
+    color: #F00606
+}
+
+.BodyNodes a {
+    color: inherit
+}
+
+.BodyNodes a:active,
+.BodyNodes a:focus,
+.BodyNodes a:hover {
+    color: #F00606
+}
+
+.Footer {
+    margin: 35px 0 0;
+    border-top: 1px solid #D9D9DD;
+    text-align: center
+}
+
+.Footer-copyright,
+.Footer-list-item a {
+    color: #A7AFB3;
+    text-transform: uppercase;
+    line-height: 1
+}
+
+.Footer-copyright {
+    margin-bottom: 20px
+}
+
+.Footer-list {
+    padding: 7px 0 15px
+}
+
+.Footer-list-item {
+    display: inline;
+    margin-right: 20px
+}
+
+.Footer-list-item:last-child {
+    margin-right: 0
+}
+
+.Video {
+    margin: 0 auto;
+    padding-bottom: 0;
+    text-align: center;
+    background: #000
+}
+
+.Video-media,
+.Video-wrapper {
+    height: 100%
+}
+
+.Brightcove-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out
+}
+
+.Brightcove .vjs-big-play-button,
+.BrightcoveVideo .vjs-big-play-button {
+    top: 50%!important;
+    left: 50%!important;
+    margin-top: -48px;
+    margin-left: -77px
+}
+
+.Brightcove_playing .Brightcove-preview {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .1s ease-in-out, visibility 0s ease .1s;
+    transition: opacity .1s ease-in-out, visibility 0s ease .1s
+}
+
+.BrightcoveVideo {
+    height: 100%
+}
+
+.BrightcoveVideo span[id] {
+    height: 100%;
+    width: 100%
+}
+
+.BrightcoveVideo .vjs-big-play-button {
+    display: none
+}
+
+.Vimeo,
+.VimeoVideo {
+    height: 100%
+}
+
+.Youtube {
+    position: relative;
+    height: 100%
+}
+
+.Youtube-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out, visibility 0s ease .5s;
+    transition: opacity .5s ease-in-out, visibility 0s ease .5s
+}
+
+.Youtube_has_preview .Youtube-preview {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out
+}
+
+.YoutubeVideo {
+    height: 100%
+}
+
+.Newsy--inline:after,
+.Newsy--inline:before {
+    content: "";
+    display: table
+}
+
+.Newsy--inline>div {
+    float: none!important
+}
+
+.Newsy .vembaMediaTitle {
+    max-height: initial!important
+}
+
+@media screen and (max-width:480px) {
+    .Newsy .vembaList {
+        height: auto!important
+    }
+}
+
+.VideoPreview {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.VideoPreview_has_play_button:before {
+    content: "";
+    background-image: url(http://static-cdn.thedailybeast.com/images/video-preview-icon-20fc715177.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 100px;
+    height: 100px
+}
+
+.VideoPreview_has_overlay:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    content: ''
+}
+
+.VideoPreview-special {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1
+}
+
+.VideoCaption {
+    background-color: #000;
+    margin: 0 auto 10px
+}
+
+.VideoCaption p {
+    line-height: 15px;
+    color: #fff;
+    padding: 15px
+}
+
+.InlineNewsletter-title,
+.InlineNewsletter_final .InlineNewsletter-title {
+    font-family: ScoutCondensedBold, "Arial Narrow", Arial, sans-serif;
+    color: #f00606;
+    font-weight: 400;
+    letter-spacing: .5px
+}
+
+.InlineVideo {
+    margin: 28px auto 25px
+}
+
+.InlineVideo__container {
+    position: relative;
+    padding-bottom: 56.25%
+}
+
+.InlineVideo--with-newsy .InlineVideo__container {
+    padding-bottom: 0
+}
+
+.InlineVideo--with-newsy .InlineVideo__container .InlineVideo__video-wrapper {
+    position: relative
+}
+
+.InlineVideo__video-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.InlineNewsletter {
+    float: left;
+    margin: 0 35px 28px 0;
+    width: 280px
+}
+
+.InlineNewsletter-form {
+    position: relative;
+    text-align: center
+}
+
+.InlineNewsletter_final .InlineNewsletter-form {
+    display: none
+}
+
+.InlineNewsletter-title {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    text-transform: uppercase
+}
+
+.InlineNewsletter_final .InlineNewsletter-title {
+    font-size: 55px;
+    line-height: 50px;
+    padding-top: 35px
+}
+
+.InlineNewsletter_has-message .InlineNewsletter-input {
+    padding-bottom: 10px
+}
+
+.InlineNewsletter_has-long-message .InlineNewsletter-input {
+    padding-bottom: 25px
+}
+
+.InlineNewsletter .InlineNewsletter-input-element {
+    font-size: 13px;
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 185px;
+    height: 32px;
+    border: 1px solid #d9d9dd;
+    border-radius: 4px;
+    color: #02141f
+}
+
+.InlineNewsletter::-webkit-input-placeholder {
+    color: #A7AFB3;
+    opacity: 1
+}
+
+.InlineNewsletter::-moz-placeholder {
+    color: #A7AFB3;
+    opacity: 1
+}
+
+.InlineNewsletter:-ms-input-placeholder {
+    color: #A7AFB3;
+    opacity: 1
+}
+
+.InlineNewsletter::placeholder {
+    color: #A7AFB3;
+    opacity: 1
+}
+
+.InlineNewsletter-submit {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 85px
+}
+
+.InlineNewsletter-list {
+    max-height: 0;
+    text-align: left;
+    opacity: 0;
+    -webkit-transition: .2s max-height ease-in-out, .2s opacity ease-in-out;
+    transition: .2s max-height ease-in-out, .2s opacity ease-in-out
+}
+
+.InlineNewsletter_open .InlineNewsletter-list {
+    display: block;
+    max-height: 260px;
+    opacity: 1
+}
+
+.InlineNewsletter-item {
+    position: relative;
+    padding: 13px 0 20px;
+    border-top: 1px solid #d9d9dd;
+    color: #d9d9dd
+}
+
+.InlineNewsletter-item:first-child {
+    margin-top: 20px
+}
+
+.InlineNewsletter-item:last-child {
+    border-bottom: 1px solid #d9d9dd
+}
+
+.InlineNewsletter-label {
+    position: relative;
+    display: block;
+    padding-right: 50px;
+    cursor: pointer
+}
+
+.InlineNewsletter-label& a {
+    color: #d9d9dd;
+    text-decoration: underline
+}
+
+.InlineNewsletter-label& a:hover {
+    text-decoration: none
+}
+
+.InlineNewsletter .InlineNewsletter-checkbox {
+    display: none
+}
+
+.InlineNewsletter-subtitle {
+    font-size: 30px;
+    font-family: ScoutCondensedBold, "Arial Narrow", Arial, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    display: block;
+    color: #02141f
+}
+
+.InlineNewsletter-description {
+    color: #02141f;
+    font-size: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 17px;
+    font-weight: 400;
+    display: block;
+    margin-top: 3px
+}
+
+.InlineNewsletter-final-description,
+.InlineNewsletter-message,
+.InlineNewsletter-terms,
+.SubmitButton.SubmitButton {
+    font-size: 13px;
+    font-family: ScoutBold, "Arial Narrow", Arial, sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: .5px
+}
+
+.InlineNewsletter-icon {
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    box-sizing: border-box;
+    margin-top: -14px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d9d9dd;
+    border-radius: 50%
+}
+
+.InlineNewsletter-icon .icon {
+    display: none
+}
+
+.InlineNewsletter-checkbox:checked+.InlineNewsletter-label .InlineNewsletter-icon {
+    border: none;
+    background-image: url(http://static-cdn.thedailybeast.com/images/newsletter-checkbox-021db6a4b4.svg)
+}
+
+.InlineNewsletter-final {
+    display: none;
+    margin: 0 auto;
+    width: 220px;
+    text-align: center
+}
+
+.InlineNewsletter_final .InlineNewsletter-final {
+    display: block
+}
+
+.InlineNewsletter-final-description {
+    padding-bottom: 35px;
+    color: #a7afb3
+}
+
+.InlineNewsletter-message {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    color: #f00606
+}
+
+.InlineNewsletter_final .InlineNewsletter-message {
+    display: none
+}
+
+.InlineNewsletter-terms {
+    color: #a7afb3;
+    margin: 16px auto 0
+}
+
+.InlineNewsletter-terms a {
+    color: #a7afb3
+}
+
+.SubmitButton.SubmitButton {
+    width: 100%;
+    height: 32px;
+    outline: 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #02141f;
+    color: #f3f3f7;
+    text-transform: uppercase
+}
+
+.SpecialContentMarker {
+    width: 95px;
+    height: 95px;
+    background: top right no-repeat
+}
+
+.SpecialContentMarker_exclusive {
+    background-image: url(http://static-cdn.thedailybeast.com/images/exclusive-cbdd90c2db.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.3),
+only screen and (min--moz-device-pixel-ratio:1.3),
+only screen and (-webkit-min-device-pixel-ratio:1.3020833333333333),
+only screen and (min-resolution:125dpi),
+only screen and (min-resolution:1.3dppx) {
+    .SpecialContentMarker_exclusive {
+        background-image: url(http://static-cdn.thedailybeast.com/images/exclusive_2x-0d283d2d00.png);
+        background-size: 95px 95px
+    }
+}
+
+.SpecialContentMarker_feature {
+    background-image: url(http://static-cdn.thedailybeast.com/images/feature-e92b1b53c5.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.3),
+only screen and (min--moz-device-pixel-ratio:1.3),
+only screen and (-webkit-min-device-pixel-ratio:1.3020833333333333),
+only screen and (min-resolution:125dpi),
+only screen and (min-resolution:1.3dppx) {
+    .SpecialContentMarker_feature {
+        background-image: url(/images/feature_2x.png);
+        background-size: 95px 95px
+    }
+}
+
+.SpecialContentMarker_opinion {
+    background-image: url(http://static-cdn.thedailybeast.com/images/opinion-c63a97bfb8.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.3),
+only screen and (min--moz-device-pixel-ratio:1.3),
+only screen and (-webkit-min-device-pixel-ratio:1.3020833333333333),
+only screen and (min-resolution:125dpi),
+only screen and (min-resolution:1.3dppx) {
+    .SpecialContentMarker_opinion {
+        background-image: url(http://static-cdn.thedailybeast.com/images/opinion_2x-5412de562b.png);
+        background-size: 95px 95px
+    }
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 1070px
+}
+
+main>section:after,
+main>section:before {
+    content: "";
+    display: table
+}
+
+.articles-container {
+    float: left;
+    padding-right: 30px;
+    width: 740px
+}
